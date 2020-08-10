@@ -1,5 +1,6 @@
 // Your code here
 const dodger = document.getElementById('dodger');
+dodger.style.backgroundColor = "pink";
 
 function moveDodgerLeft() {
   let leftNumbers = dodger.style.left.replace('px', '')
